@@ -26,8 +26,6 @@ nav ul {
   list-style: none;
 }
 .nav-item > a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   text-decoration: none;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
