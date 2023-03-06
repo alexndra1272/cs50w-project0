@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Shantell+Sans&display=swap");
+
+:root
+{
+	--azul-1: #003785;
+	--azul-2: #1465bb;
+	--azul-3: #2196f3;
+	--azul-4: #81c9fa;
+	--azul-5: #b9ffff;
+	--fuente-pop: 'Poppins', sans-serif;
+	--fuente-shantell: "Shantell Sans", cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -34,6 +46,10 @@ nav ul {
   font-family: "Poppins";
   text-decoration: none;
   color: #000;
+}
+
+.nav-item:hover > a {
+  color: blue;
 }
 
 #nombre {

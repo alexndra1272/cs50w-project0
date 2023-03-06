@@ -55,6 +55,14 @@ nav
     }
 }
 
+.nav-item:hover
+{
+    & > a
+    {
+        color: blue;
+    }
+}
+
 #nombre
 {
     font-family: $fuente-logo;
