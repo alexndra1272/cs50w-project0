@@ -141,4 +141,27 @@ footer a {
 	}
 }
 
+
+/************CONTACT************/
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.img-contact {
+	width: 60%;
+	height: 60%;
+}
+.contact > form {
+	width: 38%;
+	height: 60%;
+	display: flex;
+	flex-direction: column;
+}
+.contact > form > input {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 10px;
+} 
 /*# sourceMappingURL=style.css.map */
