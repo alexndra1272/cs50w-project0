@@ -143,7 +143,7 @@ footer a {
 
 
 /************CONTACT************/
-.contact {
+.contact, .inicio {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -182,5 +182,14 @@ footer a {
 {
 	width: 20%;
 	border: double 4px transparent;
+}
+
+
+/************CONTACT************/
+#img-inicio
+{	
+	width: 40%;
+	height: 40%;
+	
 }
 /*# sourceMappingURL=style.css.map */
