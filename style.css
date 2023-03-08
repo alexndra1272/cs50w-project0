@@ -144,12 +144,14 @@ footer a {
 
 
 /************CONTACT************/
-.contact, .inicio {
+.contact
+{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 85vh;
 }
+
 .img-contact {
 	width: 60%;
 	height: 60%;
@@ -186,7 +188,22 @@ footer a {
 }
 
 
-/************CONTACT************/
+/************HOME************/
+.inicio {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.pag-principal
+{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+}
 #img-inicio
 {	
 	width: 80%;
@@ -216,5 +233,6 @@ footer a {
 	text-transform: uppercase;
 	font-family: var(--fuente-pop);
 	font-weight: 1000;
+	margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
