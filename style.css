@@ -66,6 +66,8 @@ nav ul {
 
 .nav-toggle {
 	display: none;
+	border: none;
+	background-color: transparent;
 }
 
 img {
@@ -214,6 +216,9 @@ footer a {
 	height: 190px;
 }
 @media screen and (max-width: 768px) {
+	#nombre{
+		display: none;
+	}
 	.navbar-list {
 		width: 100%;
 		height: 100%;
@@ -233,6 +238,7 @@ footer a {
 		width: 100vw;
 		height: 80px;
 		justify-content: space-between;
+		display: none;
 	}
 
 	.nav-item {
@@ -258,7 +264,10 @@ footer a {
 		font-size: 1.8rem;
 		cursor: pointer;
 	}
-
+	.nav-toggle:hover
+	{
+		color: rebeccapurple;
+	}
 	/* Resposive de la pagina de contacto*/
 	.contact
 	{
