@@ -18,7 +18,7 @@
 	color: var(--black);
 }
 
-nav ul {
+nav .lista {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -35,7 +35,7 @@ header {
 	align-items: center;
 }
 
-nav ul {
+nav .lista {
 	flex-direction: row;
 	width: 60vw;
 	height: 80px;
@@ -219,27 +219,53 @@ footer a {
 	#nombre{
 		display: none;
 	}
-	.navbar-list {
+	header {
+		height: 70px;
+	}
+	nav .lista {
 		width: 100%;
-		height: 100%;
-		justify-content: space-around;
-	}
-
-	.navbar-list li {
-		list-style: none;
-	}
-
-	.navbar-list a {
-		text-decoration: none;
-	}
-
-	nav ul {
+        height: 40vh;
 		flex-direction: column;
-		width: 100vw;
-		height: 80px;
-		justify-content: space-between;
-		display: none;
+		justify-content: space-evenly;
 	}
+	.lista 
+	{
+		
+		display: none;
+		z-index: 2;
+		position: fixed;
+		background-color: white;
+		left: 0;
+		top: 60px;
+        padding: 20px 0;
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+        z-index: 2;
+        position: absolute;
+	}
+	/*
+	.lista
+    {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: rgb(37, 78, 139);
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% -60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+        z-index: 2;
+        position: absolute;
+    }*/
+	.visible-m {
+        left: 0;
+    }
 
 	.nav-item {
 		list-style: none;
@@ -263,10 +289,6 @@ footer a {
 		transform: translate(-100%, 60%);
 		font-size: 1.8rem;
 		cursor: pointer;
-	}
-	.nav-toggle:hover
-	{
-		color: rebeccapurple;
 	}
 	/* Resposive de la pagina de contacto*/
 	.contact
