@@ -70,12 +70,6 @@ nav .lista {
 	background-color: transparent;
 }
 
-img {
-	width: 10px;
-	height: 10px;
-}
-
-
 
 /************FOOTER************/
 footer {
@@ -208,6 +202,41 @@ footer a {
 	font-weight: 800;
 	margin-top: 20px;
 }
+/************ABOUT ME************/
+.about
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+	padding-top: 5%;
+	
+}
+.about-me
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 85%;
+	width: 90%;
+}
+.about-me > img
+{
+	margin: 50px;
+	width: 50%;
+	height: 50%;
+	border-radius: 50%;
+}
+.about-me-text > p
+{
+
+	font-family: var(--fuente-pop);
+	font-size: 16px;
+	color: var(--black);
+}
+
 
 /************Sobreescribiendo el bootstrap************/
 .card-img-top
@@ -244,25 +273,6 @@ footer a {
         z-index: 2;
         position: absolute;
 	}
-	/*
-	.lista
-    {
-        flex-direction: column;
-        align-items: center;
-        margin-right: 20px;
-        background-color: rgb(37, 78, 139);
-        position: fixed;
-        left: 0;
-        top: 60px;
-        width: 100%;
-        padding: 20px 0;
-        height: calc(100% -60px);
-        overflow-y: auto;
-        left: 100%;
-        transition: left 0.3s;
-        z-index: 2;
-        position: absolute;
-    }*/
 	.visible-m {
         left: 0;
     }
@@ -274,11 +284,6 @@ footer a {
 	.nav-item>a {
 		font-family: "Poppins";
 		text-decoration: none;
-	}
-
-	img {
-		width: 10px;
-		height: 10px;
 	}
 
 	.nav-toggle {
@@ -295,5 +300,26 @@ footer a {
 	{
 		flex-direction: column;
 	}
+	.about-me
+	{
+		flex-direction: column;
+		justify-content: center;
+		height: 60%;
+	}
+	.about-me > img
+	{
+		margin: 20px;
+		width: 50%;
+		height: 50%;
+		border-radius: 50%;
+	}
+	.about-me-text > p
+	{
+
+		font-family: var(--fuente-pop);
+		font-size: 16px;
+		color: var(--black);
+	}
+
 }
 /*# sourceMappingURL=style.css.map */
