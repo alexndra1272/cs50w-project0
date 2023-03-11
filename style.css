@@ -244,6 +244,21 @@ footer a {
 	width: 100%;
 	height: 190px;
 }
+/**Responsive**/
+@media screen and (max-width: 800px)
+{
+	.pag-principal
+	{
+		flex-direction: column;
+		height: 65vh;
+	}
+	#img-inicio
+	{
+		width: 60%;
+		height: 50%;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	#nombre{
 		display: none;
