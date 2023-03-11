@@ -188,6 +188,14 @@ footer a {
 	width: 100%;
 	text-align: center;
 }
+.row
+{
+	padding-top: 20px;
+}
+.col
+{
+	margin-top: 10px;
+}
 
 /************Estilo para los botones************/
 #contact-me-css
@@ -314,7 +322,21 @@ footer a {
 	.contact
 	{
 		flex-direction: column;
+		height: 80vh;
+		width: 100%;
 	}
+	.contact > .img-contact
+	{
+		display: none;
+	}
+	.form-contact {
+		width: 70%;
+	}
+	.form-contact input[type="submit"]
+	{
+		width: 40%;
+	}
+	/** responsive de la pagina de about me**/
 	.about-me
 	{
 		flex-direction: column;
