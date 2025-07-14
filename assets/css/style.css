@@ -62,8 +62,16 @@ header ul {
     width: 100%;
     margin-top: 7px;
   }
-
   .google-img {
     width: 50%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  main > form {
+    width: 80%;
+  }
+  .google-img {
+    width: 35%;
   }
 }
