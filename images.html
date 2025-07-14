@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Design a front-end for Google Search." />
+    <meta name="author" content="Alexandra Gutierrez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Search Images</title>
+    <link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="flex justify-end">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Advance search</a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="material-symbols-rounded"> apps </span>
+            </a>
+          </li>
+          <li>
+            <a href="#" id="sign-btn">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="flex">
+      <img
+        class="google-img"
+        alt="Google Images"
+        width="18%"
+        src="./assets/img/images_logo.png"
+      />
+      <form action="https://google.com/search" class="flex flex-col">
+        <div class="border border-gray-300 flex search" id="search">
+          <span class="material-symbols-rounded"> search </span>
+          <input type="text" name="q" class="border-none input-search" />
+          <span class="material-symbols-rounded"> mic </span>
+          <span class="material-symbols-rounded"> add_a_photo </span>
+        </div>
+        <div>
+          <input type="submit" value="Google Search" class="border-none" />
+          <input type="hidden" value="isch" name="tbm" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
