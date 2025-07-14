@@ -7,6 +7,7 @@
   width: 80%;
   border-radius: 24px;
   gap: 10px;
+  box-shadow: 0 8px 8px -4px var(--gray-100);
 }
 
 .input-search {
@@ -26,7 +27,7 @@ input[type="submit"] {
 }
 
 main {
-  height: 60vh;
+  height: 85vh;
   padding: 0;
   flex-direction: column;
   justify-content: center;
@@ -34,17 +35,35 @@ main {
 }
 
 main > form {
-  width: 50%;
+  width: 55%;
   margin-top: 20px;
   justify-content: center;
+  color: var(--gray-800);
   align-items: center;
+}
+
+header ul {
+  list-style: none;
+  align-items: center;
+  color: var(--gray-800);
+  margin: 12px 10px;
+  gap: 15px;
+}
+
+#sign-btn {
+  background-color: #0b57d0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
 }
 
 @media screen and (max-width: 480px) {
   main > form {
     width: 100%;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
+    margin-top: 7px;
+  }
+
+  .google-img {
+    width: 50%;
   }
 }

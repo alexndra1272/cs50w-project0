@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: arial,sans-serif;
+  font-size: 13px;
 }
 
 :root {
@@ -41,5 +43,9 @@ a {
 }
 
 .flex-col {
-    flex-direction: column;
+  flex-direction: column;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
