@@ -39,7 +39,7 @@ a {
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-col {
@@ -48,4 +48,12 @@ a {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
