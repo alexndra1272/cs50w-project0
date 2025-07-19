@@ -147,23 +147,30 @@ nav > svg {
     width: 100%;
   }
 
+
+  #sign-btn {
+    padding: 10px;
+    font-size: small;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 1024px) { 
+  .advanced-section > p {
+    display: none;
+  }
   .label-form-advanced {
     width: 90%;
   }
 
   .advanced-section > h5 {
-    width: 30%;
+    width: 40%;
   }
 
   .advanced-section > input {
-    width: 60%;
+    width: 70%;
   }
-  #sign-btn {
-    padding: 10px;
-    font-size: small;
-  }
-  .advanced-section > p {
-    display: none;
+  .advanced > form {
+    width: 90%;
   }
 }
 
@@ -175,20 +182,4 @@ nav > svg {
     width: 35%;
   }
 
-  .advanced-section > input {
-    width: 60%;
-  }
-
-  .label-form-advanced {
-    width: 75%;
-  }
-
-  .advanced > form {
-    width: 100%;
-    align-items: start;
-  }
-  
-  .advanced-section > p {
-    display: none;
-  }
 }
