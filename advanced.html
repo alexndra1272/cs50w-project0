@@ -71,27 +71,32 @@
         <h4 class="search-box">To do this in the search box.</h4>
       </div>
       <form action="https://www.google.com/search" class="flex flex-col">
-        <div class="flex justify-between advanced-section">
+        <div class="flex advanced-section">
           <h5>all these words:</h5>
           <input type="text" name="as_q" />
-          <p>Type the important words:  tri-colour rat terrier.</p>
+          <p>Type the important words: tri-colour rat terrier.</p>
         </div>
-        <div class="flex justify-between advanced-section">
+        <div class="flex advanced-section">
           <h5>this exact word or phrase:</h5>
           <input type="text" name="as_epq" />
-          <p>Put exact words in quotes:  "rat terrier"</p>
+          <p>Put exact words in quotes: "rat terrier"</p>
         </div>
-        <div class="flex justify-between advanced-section">
+        <div class="flex advanced-section">
           <h5>any of these words:</h5>
           <input type="text" name="as_oq" />
-          <p>Type OR between all the words you want:  miniature OR standard</p>
+          <p>Type OR between all the words you want: miniature OR standard</p>
         </div>
-        <div class="flex justify-between advanced-section">
+        <div class="flex advanced-section">
           <h5>none of these words:</h5>
           <input type="text" name="as_eq" />
-          <p>Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+          <p>
+            Put a minus sign just before words that you don't want: -rodent,
+            -"Jack Russell"
+          </p>
         </div>
-        <button type="submit">Advanced Search</button>
+        <div class="button-advanced">
+          <button type="submit">Advanced Search</button>
+        </div>
       </form>
     </main>
   </body>

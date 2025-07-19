@@ -64,7 +64,7 @@ nav > svg {
 }
 
 .label-form-advanced {
-  width: 60%;
+  width: 62%;
   color: var(--gray-700);
 }
 
@@ -82,15 +82,52 @@ nav > svg {
 }
 
 .advanced > form {
-  width: 60%;
+  width: 70%;
   align-items: start;
 }
 
 .advanced-section {
   width: 100%;
+  margin: 8px 0;
 }
 
-@media screen and (max-width: 480px) {
+.advanced-section > h5 {
+  width: 15%;
+  font-weight: 400;
+}
+
+.advanced-section > input {
+  width: 55%;
+  height: 30px;
+}
+
+.advanced-section > input:focus {
+  border: 1px solid rgb(77, 144, 254);
+}
+
+.advanced-section > p {
+  width: 30%;
+  padding-left: 15px;
+  height: 30px;
+  text-align: justify;
+}
+
+.button-advanced {
+  width: 70%;
+  display: flex;
+  padding-top: 10px;
+  justify-content: end;
+}
+
+.button-advanced > button {
+  background-color: rgb(77, 144, 254);
+  border: 1px solid rgb(77, 144, 254);
+  border-radius: 3px;
+  color: white;
+  padding: 10px;
+}
+
+@media (max-width: 375px) {
   main > form {
     width: 100%;
     margin-top: 7px;
@@ -105,13 +142,53 @@ nav > svg {
   nav > svg {
     padding: 0;
   }
+
+  .advanced > form {
+    width: 100%;
+  }
+
+  .label-form-advanced {
+    width: 90%;
+  }
+
+  .advanced-section > h5 {
+    width: 30%;
+  }
+
+  .advanced-section > input {
+    width: 60%;
+  }
+  #sign-btn {
+    padding: 10px;
+    font-size: small;
+  }
+  .advanced-section > p {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media (min-width: 767px) and (max-width: 1024px) {
   main > form {
     width: 100%;
   }
   .google-img {
     width: 35%;
+  }
+
+  .advanced-section > input {
+    width: 60%;
+  }
+
+  .label-form-advanced {
+    width: 75%;
+  }
+
+  .advanced > form {
+    width: 100%;
+    align-items: start;
+  }
+  
+  .advanced-section > p {
+    display: none;
   }
 }
